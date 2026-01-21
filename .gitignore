@@ -6,3 +6,15 @@ debug
 foo.*
 *.log
 data
+
+# Sensitive or local-only files
+*.secret
+*.env
+*.env.*
+.env*
+session/
+.session/
+
+# Plugin data that shouldn't be synced
+spell/
+plugin/
