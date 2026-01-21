@@ -7,6 +7,14 @@ return {
           files = {
             hidden = true,
             ignored = true,
+            win = {
+              input = {
+                keys = {
+                  ["<M-h>"] = { "toggle_hidden", mode = { "n", "i" } },
+                  ["<M-i>"] = { "toggle_ignored", mode = { "n", "i" } },
+                },
+              },
+            },
           },
           explorer = {
             hidden = true,
